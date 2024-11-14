@@ -1,5 +1,3 @@
-*_new.js*
-
 let {
    runtime,
    formatp,
