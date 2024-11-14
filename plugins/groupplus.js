@@ -1,3 +1,5 @@
+*_groupplus.js*
+
 //
 const {
   groupdb,
@@ -102,7 +104,7 @@ let warn = {
         _0x2634c7[_0x5add8c] = [];
       }
       var _0x279bae = {
-        'chat': 'PRIVATE',
+        'chat': 'PUBLIC',
         'reason': "Inapropriate Behaviour",
         'date': new Date(),
         'warnedby': tlang().title,
@@ -1691,10 +1693,4 @@ smd({
       if (user_warns[_0x28f5ec.sender][_0x28f5ec.action] > 0x2) {
         return;
       }
-      var _0x38c006 = " *[SOMEONE DEMOTE HERE]*\n  " + (_0x48cf93 ? "*Note : _I'm Not Admin Here, So I Can't promote Someone while Anti_Demote Activated_*" : '') + "\n\n  ❲❒❳ *User:* _@user_\n❲❒❳ *Position:* _Admin -> Member_ @pp\n  ❲❒❳ *Total Members:* _@count_Members_\n❲❒❳ *Group Name:* @gname\n  \n\n" + Config.caption;
-      return await sendWelcome(_0x28f5ec, _0x38c006);
-    }
-  } catch (_0x2cb5e6) {
-    console.log("Error From Demote : ", _0x2cb5e6);
-  }
-});
+      var _0x38c006 = " *[SOMEONE DEMOTE HERE]*\n  " + (_0x48cf93 ? "*Note : _I'm Not Admin Here, So I Can't promote Someone while Anti_Demote Activated_*" : '') + "\n\n  ❲❒❳ *User:* _@user_\n❲❒❳ *Position:* _Admin -> Member_ @pp\n  ❲❒❳ *Total Members:* _@count_Members_\n
