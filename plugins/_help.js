@@ -27,15 +27,15 @@ smd(
   async (message) => {
     try {
       let menuMessage = ` 
-👉ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
-👉ᴅᴀᴛᴇ - ${message.date} 
-👉ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-👉Fᴏᴜɴᴅᴇʀ- *Star King*
-👉Oᴡɴᴇʀ - ${Config.ownername} 
-👉Nᴜᴍ - ${owner.split(",")[0]} 
-👉Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
+🏃ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
+📅ᴅᴀᴛᴇ - ${message.date} 
+⌚ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
+❤️Fᴏᴜɴᴅᴇʀ- *Sir Cylee*
+🧸Oᴡɴᴇʀ - ${Config.ownername} 
+❄️Nᴜᴍ - ${owner.split(",")[0]} 
+🥺Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
       \n *ℚ𝕌𝔼𝔼ℕ✿︎ℕ𝕀𝕂𝕂𝔸*\n\n ${readmore} 
-╭──👉 *ALL MENU* 👈 
+╭──👸 *ALL MENU* 👸 
 │☾︎👑☽︎ 𝕃𝕀𝕊𝕋
 │☾︎👑☽︎ ℂ𝔸𝕋𝔼𝔾𝕆ℝ𝕐
 │☾︎👑☽︎ ℍ𝔼𝕃ℙ 
@@ -214,7 +214,7 @@ astro_patch.cmd(
     try {
       const { commands } = require("../lib");
       let listMessage = `\n  
-╭━━👉 * ${Config.botname} * 👈    
+╭━━👸 * ${Config.botname} * 👸    
 ┃ ☾👑︎☽︎ 𝚙𝚛𝚎𝚏𝚒𝚡: ${Config.HANDLERS}
 ┃ ☾👑︎☽︎ 𝚘𝚠𝚗𝚎𝚛: ${Config.ownername}
 ┃ ☾︎👑☽︎ Co𝚖𝚖𝚊𝚗𝚍𝚜: ${commands.length}
@@ -465,8 +465,8 @@ astro_patch.smd(
     try {
       // Define subowners list
       const subowners = [
-        { name: "GOJO", waid: "2349071945622" },
-        { name: "DLORD", waid: "2347042876568" }
+        { name: "Cylee2", waid: "27615045572" },
+        { name: "Cylee1", waid: "27849730363" }
       ];
 
       // Construct contact messages for each subowner
