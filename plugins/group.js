@@ -1,3 +1,5 @@
+*_group.js*
+
 const {
    updateProfilePicture,
    parsedJid
@@ -35,7 +37,7 @@ const {
      let _0x208739 = _0x5b1338 ? _0x5b1338 : _0x466dd8.reply_text;
      const _0x47ed60 = _0x208739.match(grouppattern);
      if (!_0x47ed60) {
-       return await _0x466dd8.reply("*_Uhh Please, provide group link_*");
+       return await _0x466dd8.reply("*_Uhh, Please provide group link idiot _ 👀*");
      }
      let _0x4263be = _0x47ed60[0].split("https://chat.whatsapp.com/")[1].trim();
      await _0x466dd8.bot.groupAcceptInvite(_0x4263be).then(_0x7f3222 => send(_0x466dd8, "*_Joined_*", {}, "", _0x466dd8)).catch(_0x1d6aea => _0x466dd8.send("*_Can't Join, Group Id not found!!_*"));
@@ -92,7 +94,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "QUEEN_NIKKA",
+           title: "QUEEN_KYLIE",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -122,7 +124,7 @@ const {
      let _0x3eb855 = _0x1490e0 ? _0x1490e0 : _0x4f7c88.reply_text;
      const _0x3e5033 = _0x3eb855.match(grouppattern) || false;
      if (!_0x3e5033) {
-       return await _0x4f7c88.reply("*_Uhh Please, provide group link_*");
+       return await _0x4f7c88.reply("*_Uhh Please, provide group link you idiot _ 👀*");
      }
      let _0x5ced5d = _0x3e5033[0].split("https://chat.whatsapp.com/")[1].trim();
      const _0x5f4890 = await _0x4f7c88.bot.groupGetInviteInfo(_0x5ced5d);
@@ -148,7 +150,7 @@ const {
          contextInfo: _0x56eaaf
        }, "", _0x4f7c88);
      } else {
-       await _0x4f7c88.send("*_Group Id not found, Sorry!!_*");
+       await _0x4f7c88.send("*_Group Id not found, Sorry not sorry!!_*");
      }
    } catch (_0x36c345) {
      await _0x4f7c88.error(_0x36c345 + "\n\ncommand: ginfo", _0x36c345, "*_Group Id not found, Sorry!!_*");
@@ -170,7 +172,7 @@ const {
      }
      const _0x4ea369 = await _0xb81e45.bot.groupRequestParticipantsList(_0xb81e45.chat);
      if (!_0x4ea369 || !_0x4ea369[0]) {
-       return await _0xb81e45.reply("*_No Request Join Yet_*");
+       return await _0xb81e45.reply("*_No Request to Join Yet, relax_*");
      }
      let _0x3b870c = [];
      let _0x32f437 = "*List of rejected users*\n\n";
@@ -517,7 +519,7 @@ const {
        return _0x53f8e3.reply(tlang().group);
      }
      if (!_0x53f8e3.isBotAdmin) {
-       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link_*");
+       return _0x53f8e3.reply("*_I'm Not Admin... Dumbass, So I can't Send Invite Link_*");
      }
      var _0x53ec11 = await _0x53f8e3.bot.groupInviteCode(_0x53f8e3.chat);
      var _0x2e549f = "https://chat.whatsapp.com/";
@@ -538,7 +540,7 @@ const {
        return _0x451b0f.reply(tlang().group);
      }
      if (!_0x451b0f.isBotAdmin) {
-       return _0x451b0f.reply("*_I'm Not Admin, So I Can't ReSet Group Invite Link_*");
+       return _0x451b0f.reply("*_I'm Not Admin you piece of crap, So I Can't ReSet Group Invite Link_*");
      }
      await _0x451b0f.bot.groupRevokeInvite(_0x451b0f.chat);
      return _0x451b0f.reply("*_Group Link Revoked SuccesFully_*");
@@ -560,7 +562,7 @@ const {
      if (!_0x1ed055.isAdmin && !_0x1ed055.isCreator) {
        return _0x1ed055.reply(tlang().admin);
      }
-     let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
+     let _0x392a2d = "\n══✪〘   👸*Tag All*👸   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
      for (let _0x502431 of _0x5d614a) {
        if (!_0x502431.id.startsWith("2348039607375")) {
          _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
@@ -591,7 +593,7 @@ const {
        return await _0x19564c.reply("*Provide Me Country Code. Example: .kik 212*");
      }
      if (!_0x19564c.isBotAdmin) {
-       return _0x19564c.reply("*_I'm Not Admin, So I can't kik anyone!_*");
+       return _0x19564c.reply("*_I'm Not Admin dumbass , So I can't kik anyone!_*");
      }
      if (!_0x19564c.isAdmin && !_0x19564c.isCreator) {
        return _0x19564c.reply(tlang().admin);
@@ -728,14 +730,14 @@ const {
        return _0x5e533c.reply(tlang().group);
      }
      if (!_0x5e533c.isBotAdmin) {
-       return await _0x5e533c.reply("*_I'm Not Admin In This Group, Idiot_*");
+       return await _0x5e533c.reply("*_I ain't Admin In This Group, Idiot_*");
      }
      if (!_0x5e533c.isAdmin) {
        return _0x5e533c.reply(tlang().admin);
      }
      let _0x4e844a = _0x5e533c.quoted ? _0x5e533c.quoted.sender : _0x5e533c.mentionedJid[0] ? _0x5e533c.mentionedJid[0] : false;
      if (!_0x4e844a) {
-       return await _0x5e533c.reply("*Uhh dear, reply/mention an User*");
+       return await _0x5e533c.reply("*Uhh fool, reply/mention an User*");
      }
      if (_0x5e533c.checkBot(_0x4e844a)) {
        return await _0x5e533c.reply("*Huh, I can't kick my Creator!!*");
