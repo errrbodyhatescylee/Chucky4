@@ -1,5 +1,3 @@
-*_groupplus.js*
-
 //
 const {
   groupdb,
