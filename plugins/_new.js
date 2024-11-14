@@ -1,3 +1,5 @@
+*_new.js*
+
 let {
    runtime,
    formatp,
@@ -15,12 +17,12 @@ let {
   {
     pattern: "channel",
     desc: "To check ping",
-    react: "🗨️",
+    react: "⚡",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `𝗤𝗨𝗘𝗘𝗡 𝗡𝗜𝗞𝗞𝗔 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaqgxNt5q08c9XMItG3P\n\n ${Config.botname} *©Haki*`;
+    const channelMessage = `Queen_Kylie 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VavkrOID38CSgcyfbM07\n\n ${Config.botname} *©cylee*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -34,12 +36,12 @@ smd(
   {
     pattern: "support",
     desc: "To check ping",
-    react: "🗨️",
+    react: "🧸",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `ERRORS WITH REPO COMMAND THIS IS NEW REPO \n\n *REPO:*https://github.com/hakisolos/QUEEN-NIKKA\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `ERRORS WITH REPO COMMAND THIS IS NEW REPO \n\n *REPO:*https://github.com/hakisolos/QUEEN_KYLIE\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -150,7 +152,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*QUEEN_ALYA CURRENTLY ACTIVE!*";
+     let _0x12a593 = "*QUEEN_KYLIE CURRENTLY ACTIVE!*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
